@@ -1,48 +1,48 @@
-# OpenAI-GPT-Powered-Behavioral-Biometrics
-Behavioral biometrics is a cutting-edge field that focuses on analyzing user behavior to enhance security and authentication processes. This repository serves as a hub for everything related to this innovative technology.
+# TypeGuardML - Enhanced Behavioral Biometrics
 
-# Keystroke Biometrics Authentication
+Behavioral biometrics is an advanced domain focusing on scrutinizing user behavior to bolster security and authentication protocols. This repository acts as a central hub for all things related to the groundbreaking technology of TypeGuardML.
 
-This is a Python script for collecting keystroke dynamics, extracting features, and training a machine-learning model for user authentication based on keystroke behavior. It demonstrates a simplified version of behavioral biometrics.
+## Keystroke Biometrics Authentication
 
-## Features
+TypeGuardML introduces a Python script designed to capture keystroke dynamics, extract pertinent features, and train a machine-learning model for user authentication based on keystroke behavior. It presents a streamlined demonstration of behavioral biometrics.
 
-- **Data Collection**: Captures keystroke events and their timestamps for a specified duration (default 10 seconds).
+### Features
 
-- **Feature Extraction**: Computes key hold time, key release time, and typing speed from collected keystrokes.
+- **Data Collection:** Records keystroke events and their timestamps for a specified duration (default: 10 seconds).
 
-- **Model Training**: Utilizes a Random Forest classifier to train on keystroke features and user labels.
+- **Feature Extraction:** Computes key hold time, key release time, and typing speed from the gathered keystrokes.
 
-- **Authentication**: Authenticates a user based on their keystroke features using the trained model.
+- **Model Training:** Deploys a Random Forest classifier to train on keystroke features and associated user labels.
 
-## Prerequisites
+- **Authentication:** Verifies a user's identity based on their keystroke features using the trained model.
+
+### Prerequisites
 
 - Python 3.x
-- Required libraries: `keyboard`, `numpy`, `scikit-learn`
+- Required libraries: keyboard, numpy, scikit-learn
+- Install the necessary libraries using `pip install keyboard numpy scikit-learn`.
 
-Install the necessary libraries using `pip install keyboard numpy scikit-learn`.
+### Usage
 
-## Usage
-
-1. Run the script by executing `python Behavioral_Biometrics.py`.
+1. Run the script by executing `python TypeGuardML_Authentication.py`.
 
 2. Follow the prompts and type to capture keystroke data.
 
-3. The script simulates two users (user1 and user2) with random labels for demonstration. Replace this simulated data with actual user data for real authentication.
+3. The script simulates two users (user1 and user2) with random labels for demonstration. Substitute this simulated data with actual user data for authenticating real users.
 
 4. The machine learning model is trained on the simulated data.
 
 5. Replace the simulated user keystroke features with actual user data for authentication. The predicted user label is printed.
 
-## Notes
+### Notes
 
-- This code is a simplified demonstration and should be extended for real-world use with actual user data.
+- This code serves as a simplified demonstration and should be extended for real-world applications with authentic user data.
 
-- Modify the simulated user data and labels for authenticating real users.
+- Modify the simulated user data and labels to facilitate the authentication of real users.
 
-- Ensure the user data is consistent with the feature extraction process.
+- Ensure the user data aligns with the feature extraction process.
 
-## License
+### License
 
-This project is licensed under the MIT License. See the LICENSE for details.
+This project is licensed under the MIT License. Refer to the [LICENSE](LICENSE) for details.
 
