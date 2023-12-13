@@ -1,5 +1,3 @@
-ttps://colab.research.google.com/drive/1M-hiM4DmqOilJA8h3nQpu1Jrs1liQPCH
-"""
 
 # Import necessary libraries
 import pandas as pd
